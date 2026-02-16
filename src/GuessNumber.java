@@ -18,11 +18,11 @@ void main(){
         int userGuess = sc.nextInt();
 
         if (userGuess == randomNum) {
-            System.out.println("Gættet korrekt!" + "\nTallet er: " + randomNum);
+            System.out.println("Gættet korrekt!!" + "\nTallet er: " + randomNum);
             break;
         } else if (userGuess > randomNum) {
             System.out.println("Prøv et lavere tal!");
-        } else if (userGuess < randomNum) {
+        } else  {
             System.out.println("Prøv et højere tal!");
         }
 
