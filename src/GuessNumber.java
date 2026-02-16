@@ -10,6 +10,8 @@ public class GuessNumber {
 }
 
 void main(){
+    // eller Random r = new Random(); & int rnd = r.nextInt(10)+1;
+
     int randomNum = (int)(Math.random() * 11);
     Scanner sc = new Scanner(System.in);
 
